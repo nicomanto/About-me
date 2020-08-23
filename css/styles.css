@@ -1,26 +1,37 @@
 body { 
-	background-color: rgb(25, 54, 89);
+	background-image: url("../resources/images/background.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: 'Montserrat';
 }
 
 .logo {
     float: left;
-    position: relative;
-    margin: 10px 15px 15px 10px;
+	width: 3em;
+	height: 3em;
+	margin-top:2em;
 }
 .bg-div {
    overflow: hidden;
-   margin-right: 100px;
-   margin-left: 100px;
+   margin-right: 20vw;
+   margin-left: 20vw;
+}
+
+.avatar{
+	width: 15%;
+	border-radius:50%;
 }
 
 nav{
     margin: 0;
     overflow:hidden;
     text-align: center;
+	font-size:1.4em;
 }
 
 nav ul{
-    margin: 0;
+    margin-top: 1em;
     padding: 0;
 	float: right;
 }
@@ -37,5 +48,8 @@ nav > ul > li > a{
     padding: 0.5em 1em;
     text-decoration: none;
 }
+
+#home-center{text-align:center;padding: 9vw 0;}
+#introduction{font-size:1.2em;line-height:1.5em}
 
 
