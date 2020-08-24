@@ -10,10 +10,6 @@ window.onload = function () {
 	if(isMobile){
 		document.getElementsByClassName("menu-pc")[0].style.display = "none";
 		document.getElementsByClassName("menu-btn")[0].style.display = "flex";
-		document.getElementsByClassName("avatar")[0].style.width = "10em";
-		document.getElementsByClassName("avatar")[0].style.marginTop = "3em";
-		document.getElementById("introduction").style.fontSize = "1em";
-		document.getElementById("footer").style.fontSize = "0.7em";
 	}
 		
 	const menuBtn = document.querySelector('.menu-btn');
@@ -22,10 +18,21 @@ window.onload = function () {
     
 	if(!menuOpen) {
         menuBtn.classList.add('open');
+		document.getElementsByClassName("menu-pc")[0].style.display = "flex";
+		document.querySelector('.menu-pc').classList.add('menu-mobile');
+		document.getElementsByClassName("avatar")[0].style.display = "none";
+		document.getElementById("introduction").style.display = "none";
+		document.getElementById("footer").style.display = "none";
+		
         menuOpen=true;
     }
     else {
         menuBtn.classList.remove('open');
+		document.getElementsByClassName("menu-pc")[0].style.display = "none";
+		document.getElementsByClassName("avatar")[0].style.display = "inherit";
+		document.getElementsByClassName("avatar")[0].style.margin = "auto";
+		document.getElementById("introduction").style.display = "inherit";
+		document.getElementById("footer").style.display = "inherit";
         menuOpen=false;
     }
 })

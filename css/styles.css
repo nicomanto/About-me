@@ -81,6 +81,7 @@ a:hover{
 #home-center{
 	text-align:center;
 	padding: 9vw 0;
+	margin: auto;
 }
 #introduction{
 	font-size:1.2em;
@@ -155,3 +156,41 @@ a:hover{
     transform: rotate(-45deg) translate(35px, 35px);
     background: gray;
 }
+
+
+.menu-mobile li a{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	height:10%;
+	font-size:1.5em;
+	color:gray;
+}
+
+.menu-mobile nav{
+	margin-top: 10em;
+	opacity: 0;  
+	animation: fadeInUp 0.5s ease-in-out 0s forwards;
+}
+
+
+
+@keyframes fadeInUp {
+  from { 
+    opacity: 0;
+    -webkit-transform: translate3d(0, 100%, 0);
+    transform: translate3d(0, 100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+/*.close-menu-mobile{
+	animation: fadeout 0.5s ease-in-out 0s forwards;
+	display: "inherit";
+	margin:auto;
+}*/
