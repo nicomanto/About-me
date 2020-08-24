@@ -163,12 +163,12 @@ a:hover{
 	flex-direction:column;
 	justify-content:center;
 	height:10%;
-	font-size:1.5em;
+	font-size:1em;
 	color:gray;
 }
 
 .menu-mobile nav{
-	margin-top: 10em;
+	margin-top: 13em;
 	opacity: 0;  
 	animation: fadeInUp 0.5s ease-in-out 0s forwards;
 }
