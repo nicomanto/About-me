@@ -89,7 +89,8 @@ body {
 	color: gray;
 	font-style: italic;
 	letter-spacing: 0.15em;
-	margin: 3em;
+	margin:3em;
+	justify-content: center;
 }
 
 #footer{
@@ -246,7 +247,10 @@ body {
 }
 
 .link-image:hover{
-	 opacity:0.5;
+	opacity:0.5;
+}
+.link-image:after{
+	opacity: 1;
 }
 
 
