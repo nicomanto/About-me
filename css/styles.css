@@ -171,6 +171,8 @@ a:hover{
 	margin-top: 13em;
 	opacity: 0;  
 	animation: fadeInUp 0.5s ease-in-out 0s forwards;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 
@@ -188,8 +190,31 @@ a:hover{
   }
 }
 
-/*.close-menu-mobile{
-	animation: fadeout 0.5s ease-in-out 0s forwards;
-	display: "inherit";
-	margin:auto;
-}*/
+
+.projects-table{
+	margin-left: auto;
+	margin-right: auto;
+	letter-spacing: 0.15em;
+	color: gray;
+	width:70%;
+	height: 70%;
+	border-spacing: 50px;
+	
+}
+
+.project-view-mobile{
+	list-style-type: none;
+	margin-left:-1.5em;
+	margin-top:40px;
+}
+
+.project-text{
+	text-align:center;
+	font-size:1.2em;
+	color:gray;
+	margin-left:-1.5em;
+	margin-top:0;
+}
+
+
+

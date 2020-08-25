@@ -14,7 +14,8 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/styles.css">
   
-  <script type="text/javascript" src="../java_script/script.js"></script>
+  <script type="text/javascript" src="../java_script/script_projects.js"></script>
+  
   
 
 </head>
@@ -37,6 +38,7 @@
 						<li><a href="about_me.html">About me</a></li>
 						<li><a href="projects.html">Projects</a></li>
 						<li><a href="contacts.html">Contacts</a></li>
+						<li><a href="">CV</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -49,8 +51,37 @@
 	
 
 	<div id="home-center">
-		<img class="avatar" src="../resources/images/avatar.svg" alt="Avatar">
-		<p id="introduction">IT student at the University of Padova</p>
+		<table class="projects-table">
+          <thead>
+            <tr class="border_bottom">
+              <th>Name</th>
+              <th>Description</th>
+              <th>Link</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="border_bottom">
+              <td>GitLab</td>
+              <td>Personal projects repository on GitLab</td>
+              <td><a href="https://gitlab.com/nicomanto"><img width="60" src="../resources/images/gitlab_icon.png"></a></td>
+            </tr>
+            <tr class="border_bottom">
+              <td>COYS</td>
+              <td>Pedometer app for the secondary school Diploma</td>
+              <td><a href="http://coys.altervista.org/"><img width="50" src="../resources/images/coys_icon.svg"></a></td>
+            </tr>
+          </tbody>
+        </table>
+		
+		
+		<div>
+			<ul>
+				<li class="project-view-mobile"><a href="https://gitlab.com/nicomanto"><img width="100" src="../resources/images/gitlab_icon.png"></a></li>
+				<p class="project-text">GitLab Projects</p>
+				<li class="project-view-mobile"><a href="http://coys.altervista.org/"><img width="80" src="../resources/images/coys_icon.svg"></a></li>
+				<p class="project-text">COYS</p>
+			</ul>
+		</div>
 	</div>
 	
 	<footer>
