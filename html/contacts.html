@@ -14,7 +14,7 @@
   <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../css/styles.css">
   
-  <script type="text/javascript" src="../java_script/script.js"></script>
+  <script type="text/javascript" src="../java_script/script_contacts.js"></script>
   
 
 </head>
@@ -24,7 +24,7 @@
 	<header>
 		<!--menu bar-->
 		<div class="menu-bar">
-			<img class="logo" src="../resources/images/logo.png" alt="Niccolò Mantovani">
+			<a href="../index.html" title="Home page"><img class="logo" src="../resources/images/logo.png" alt="Niccolò Mantovani"></a>
 			
 			<div class="menu-btn">
 				<div class="menu-btn__burger">
@@ -32,11 +32,12 @@
 			</div>
 			
 			<div class="menu-pc">
-				<nav>
+				<nav class="list-page">
 					<ul>
-						<li><a href="about_me.html">About me</a></li>
-						<li><a href="projects.html">Projects</a></li>
-						<li><a href="contacts.html">Contacts</a></li>
+						<li><a href="about_me.html" title="About me">About me</a></li>
+						<li><a href="projects.html" title="Projects">Projects</a></li>
+						<li><a href="contacts.html" title="Contacts">Contacts</a></li>
+						<li><a href="../documents/CV-Mantovani Niccolò-IT.pdf" download title="Curriculum vitae">CV</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -47,10 +48,17 @@
 		<!--end menu bar-->
 	</header>
 	
-
+	
 	<div id="home-center">
-		<img class="avatar" src="../resources/images/avatar.svg" alt="Avatar">
-		<p id="introduction">IT student at the University of Padova</p>
+		<div class="contacts">
+				<nav>
+					<ul>
+						<li><a href="mailto:nicomanto49@gmail.com" target="_blank" rel="noopener me" title="Email"><img width="60" src="../resources/images/email.png" class="link-image"></a> <p class="contacts-text">Email</p></li>
+						<li><a href="https://t.me/nicomanto" target="_blank" rel="noopener me" title="Telegram"><img width="60" src="../resources/images/telegram.png" class="link-image"></a> <p class="contacts-text">Telegram</p></li>
+						
+					</ul>
+				</nav>
+			</div>
 	</div>
 	
 	<footer>
