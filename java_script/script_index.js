@@ -6,8 +6,11 @@ if(/(android|bb\d+|meego).+mobile|avantgo|bada\/|blackberry|blazer|compal|elaine
     isMobile = true;
 }
 
+const userAgent = navigator.userAgent.toLowerCase();
+const isTablet = /(ipad|tablet|(android(?!.*mobile))|(windows(?!.*phone)(.*touch))|kindle|playbook|silk|(puffin(?!.*(IP|AP|WP))))/.test(userAgent);
+
 window.onload = function () {
-	if(isMobile){
+	if(isMobile || isTablet){
 		document.getElementsByClassName("menu-pc")[0].style.display = "none";
 		document.getElementsByClassName("menu-btn")[0].style.display = "flex";
 		document.getElementsByClassName("avatar")[0].style.marginTop = "1em";
