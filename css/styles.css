@@ -84,7 +84,7 @@ body {
 
 
 /*Center page*/
-#home-center{
+#home{
 	text-align:center;
 	padding: 9vw 0;
 	margin: auto;
@@ -95,7 +95,6 @@ body {
 	font-size:1.2em;
 	line-height:1.5em;
 	color: gray;
-	font-style: italic;
 	letter-spacing: 0.15em;
 	margin:3em;
 	justify-content: center;
