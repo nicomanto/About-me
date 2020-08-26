@@ -6,23 +6,29 @@ body {
 	font-family: 'Montserrat';
 }
 
+/*Logo css*/
 .logo {
     float: left;
 	width: 60px;
 	height: 60px;
 	margin-top:20px;
 }
+
+/*Menu bar css*/
 .menu-bar {
    overflow: hidden;
    margin-right: 2em;
    margin-left: 2em;
 }
 
+/*My image css*/
 .avatar{
 	width: 12em;
 	border-radius:50%;
 }
 
+
+/*CSS List page of menu-bar*/
 .list-page{
     margin: 0;
     overflow:hidden;
@@ -45,13 +51,11 @@ body {
     color: white;
     line-height: 2em;
     padding: 0.5em 1em;
-	
-	
 	text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 0.15em;
-  display: inline-block;
-  position: relative;
+	text-decoration: none;
+	letter-spacing: 0.15em;
+	display: inline-block;
+	position: relative;
 }
 
 
@@ -78,11 +82,15 @@ body {
 }
 
 
+
+/*Center page*/
 #home-center{
 	text-align:center;
 	padding: 9vw 0;
 	margin: auto;
 }
+
+/*Introduction about me*/
 #introduction{
 	font-size:1.2em;
 	line-height:1.5em;
@@ -93,6 +101,8 @@ body {
 	justify-content: center;
 }
 
+
+/*Copyright paragraph*/
 #footer{
 	text-align:center;
 	font-size:0.9em;
@@ -101,7 +111,7 @@ body {
 
 
 
-
+/*Menu Buttons mobile view*/
 .menu-btn {
     width: 50px;
     height: 50px;
@@ -159,6 +169,7 @@ body {
 }
 
 
+/*Menu bar mobile view (list of page)*/
 .menu-mobile ul li a{
 	display:flex;
 	flex-direction:column;
@@ -177,6 +188,8 @@ body {
 }
 
 
+
+/*Animation*/
 @keyframes fadeInUp {
   from { 
     opacity: 0;
@@ -191,7 +204,7 @@ body {
   }
 }
 
-
+/*Table projects page*/
 .projects-table{
 	margin-left: auto;
 	margin-right: auto;
@@ -202,7 +215,7 @@ body {
 	border-spacing: 50px;
 	
 }
-
+/*Project mobile view*/
 .project-view-mobile{
 	list-style-type: none;
 	margin-left:-1.5em;
@@ -219,7 +232,7 @@ body {
 }
 
 
-
+/*Contacts page*/
 .contacts {
 	display:grid;
 	flex-direction:column;
@@ -252,9 +265,3 @@ body {
 .link-image:after{
 	opacity: 1;
 }
-
-
-
-
-
-

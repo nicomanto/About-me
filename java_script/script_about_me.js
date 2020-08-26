@@ -1,4 +1,7 @@
 window.onload = function () {
+	/*Checkk if device is mobile/tablet*/
+	
+	/*Mobile view*/
 	if(WURFL.is_mobile){
 		document.getElementsByClassName("menu-pc")[0].style.display = "none";
 		document.getElementsByClassName("menu-btn")[0].style.display = "flex";
@@ -8,23 +11,26 @@ window.onload = function () {
 	let menuOpen = false;
 	menuBtn.addEventListener('click', ()=> {
     
-	if(!menuOpen) {
-        menuBtn.classList.add('open');
-		document.getElementsByClassName("menu-pc")[0].style.display = "flex";
-		document.querySelector('.menu-pc').classList.add('menu-mobile');
-		document.getElementById("introduction").style.display = "none";
-		document.getElementById("footer").style.display = "none";
-		
-        menuOpen=true;
-    }
-    else {
-        menuBtn.classList.remove('open');
-		document.getElementsByClassName("menu-pc")[0].style.display = "none";
-		document.getElementById("introduction").style.display = "inherit";
-		document.getElementById("footer").style.display = "inherit";
-        menuOpen=false;
-    }
-})
+		/*Open mobile button burger*/
+		if(!menuOpen) {
+			menuBtn.classList.add('open');
+			document.getElementsByClassName("menu-pc")[0].style.display = "flex";
+			document.querySelector('.menu-pc').classList.add('menu-mobile');
+			document.getElementById("introduction").style.display = "none";
+			document.getElementById("footer").style.display = "none";
+			
+			menuOpen=true;
+		}
+		/*Close mobile button burger*/
+		else {
+			menuBtn.classList.remove('open');
+			document.getElementsByClassName("menu-pc")[0].style.display = "none";
+			document.getElementById("introduction").style.display = "inherit";
+			document.getElementById("footer").style.display = "inherit";
+			
+			menuOpen=false;
+		}
+	})
 }
 
 
