@@ -12,4 +12,4 @@
 *.cb
 *.cb2
 .*.lb
-.*.gz
+*.synctex.gz
