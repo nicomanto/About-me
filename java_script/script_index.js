@@ -2,7 +2,7 @@ window.onload = function () {
 	/*Checkk if device is mobile/tablet*/
 	
 	/*Mobile view*/
-	if(false){
+	if(WURFL.is_mobile){
 		document.getElementsByClassName("menu-pc")[0].style.display = "none";
 		document.getElementsByClassName("menu-btn")[0].style.display = "flex";
 		document.getElementsByClassName("avatar")[0].style.marginTop = "1em";
