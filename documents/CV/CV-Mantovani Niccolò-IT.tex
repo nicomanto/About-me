@@ -1,0 +1,25 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[T1]{fontenc}        % Codifica dei font
+\usepackage[utf8]{inputenc}    % Lettere accentate da tastiera
+\usepackage[english,italian]{babel}     % Lingua del documento
+\usepackage[margin=0.8in]{geometry}
+\usepackage{hyperref}
+\usepackage{xcolor}
+
+\begin{document}
+	\title{%
+		Mantovani Niccolò \\
+		\large Curriculum vitae}
+	\date{}
+	\maketitle
+	
+	\input{src/informazioni_personali}
+	\vspace{5mm}
+	\input{src/titolo_di_studio}
+	\vspace{5mm}
+	\input{src/esperienza_professionale}
+	\newpage
+	\input{src/istruzione_e_formazione}
+	\vspace{5mm}
+	\input{src/competenze_personali}
+\end{document}
