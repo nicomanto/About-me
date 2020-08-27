@@ -11,9 +11,6 @@ window.onload = function () {
 	/*Pc view*/
 	else{
 		document.getElementsByClassName("project-view-mobile")[0].style.display = "none";
-		document.getElementsByClassName("project-view-mobile")[1].style.display = "none";
-		document.getElementsByClassName("project-text")[0].style.display = "none";
-		document.getElementsByClassName("project-text")[1].style.display = "none";
 	}
 		
 	const menuBtn = document.querySelector('.menu-btn');
@@ -27,9 +24,6 @@ window.onload = function () {
 			document.querySelector('.menu-pc').classList.add('menu-mobile');
 			document.getElementById("footer").style.display = "none";
 			document.getElementsByClassName("project-view-mobile")[0].style.display = "none";
-			document.getElementsByClassName("project-view-mobile")[1].style.display = "none";
-			document.getElementsByClassName("project-text")[0].style.display = "none";
-			document.getElementsByClassName("project-text")[1].style.display = "none";
 			
 			menuOpen=true;
 		}
@@ -39,9 +33,6 @@ window.onload = function () {
 			document.getElementsByClassName("menu-pc")[0].style.display = "none";
 			document.getElementById("footer").style.display = "inherit";
 			document.getElementsByClassName("project-view-mobile")[0].style.display = "inherit";
-			document.getElementsByClassName("project-view-mobile")[1].style.display = "inherit";
-			document.getElementsByClassName("project-text")[0].style.display = "inherit";
-			document.getElementsByClassName("project-text")[1].style.display = "inherit";
 			
 			menuOpen=false;
 		}
