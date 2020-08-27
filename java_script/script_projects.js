@@ -23,7 +23,7 @@ window.onload = function () {
 			document.getElementsByClassName("menu-pc")[0].style.display = "flex";
 			document.querySelector('.menu-pc').classList.add('menu-mobile');
 			document.getElementById("footer").style.display = "none";
-			document.getElementsByClassName("project-view-mobile")[0].style.display = "none";
+			document.getElementById("home").style.display = "none";
 			
 			menuOpen=true;
 		}
@@ -32,7 +32,7 @@ window.onload = function () {
 			menuBtn.classList.remove('open');
 			document.getElementsByClassName("menu-pc")[0].style.display = "none";
 			document.getElementById("footer").style.display = "inherit";
-			document.getElementsByClassName("project-view-mobile")[0].style.display = "inherit";
+			document.getElementById("home").style.display = "inherit";
 			
 			menuOpen=false;
 		}

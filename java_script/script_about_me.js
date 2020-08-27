@@ -16,7 +16,7 @@ window.onload = function () {
 			menuBtn.classList.add('open');
 			document.getElementsByClassName("menu-pc")[0].style.display = "flex";
 			document.querySelector('.menu-pc').classList.add('menu-mobile');
-			document.getElementById("introduction").style.display = "none";
+			document.getElementById("home").style.display = "none";
 			document.getElementById("footer").style.display = "none";
 			
 			menuOpen=true;
@@ -25,7 +25,7 @@ window.onload = function () {
 		else {
 			menuBtn.classList.remove('open');
 			document.getElementsByClassName("menu-pc")[0].style.display = "none";
-			document.getElementById("introduction").style.display = "inherit";
+			document.getElementById("home").style.display = "inherit";
 			document.getElementById("footer").style.display = "inherit";
 			
 			menuOpen=false;
