@@ -222,7 +222,11 @@ body {
 	height:10%;
 	color:gray;
 	margin-right: auto;
-	margin-left:-2em;
+}
+
+.project-view-mobile ul{
+	list-style: none;
+    padding-left: 0;
 }
 
 .project-view-mobile li{
@@ -251,7 +255,11 @@ body {
 	height:10%;
 	color:gray;
 	margin-right: auto;
-	margin-left:-2em;
+}
+
+.contacts ul{
+	list-style: none;
+    padding-left: 0;
 }
 
 .contacts li{
