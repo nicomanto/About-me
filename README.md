@@ -10,3 +10,6 @@ You can find my site on this link: [About-me](http://nicomanto.gitlab.io/about-m
 
 ## Detect device
 I used [WURLF.js Lite](https://web.wurfl.io/#wurfl-js) to detect **mobile/tablet devices** in order to create the corresponding view
+
+## HTML Validation
+HTML was validate with [W3C Markup Validation Service](https://validator.w3.org/)
