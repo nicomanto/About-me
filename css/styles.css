@@ -28,6 +28,9 @@ body {
 	border-radius:50%;
 }
 
+.image_contacts{
+	width: 60px;
+}
 
 /*CSS List page of menu-bar*/
 .list-page{
