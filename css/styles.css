@@ -278,10 +278,6 @@ body {
 	justify-content:center;
 }
 
-.link-image{
-	width: 60px;
-}
-
 .link-image:hover{
 	opacity:0.5;
 }
