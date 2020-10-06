@@ -85,7 +85,7 @@ body {
 /*Center page*/
 #home{
 	text-align:center;
-	padding: 9vw 0;
+	padding: 5vw 0;
 	margin: auto;
 }
 
@@ -96,6 +96,14 @@ body {
 	color: gray;
 	letter-spacing: 0.15em;
 	margin:3em;
+	justify-content: center;
+}
+
+/*Title about me*/
+#title{
+	font-size:2em;
+	color: gray;
+	letter-spacing: 0.15em;
 	justify-content: center;
 }
 
