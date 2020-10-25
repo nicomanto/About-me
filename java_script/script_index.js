@@ -11,6 +11,7 @@ window.onload = function () {
 		x.style.paddingBottom="0";
 		x.style.textAlign="unset";
 		document.getElementsByClassName("menu-bar")[0].style.display="block";
+		document.getElementsByClassName("logo")[0].style.margin.left="-19px"
 	}
 		
 	const menuBtn = document.querySelector('.menu-btn');
