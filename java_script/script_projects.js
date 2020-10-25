@@ -7,6 +7,12 @@ window.onload = function () {
 		document.getElementsByClassName("menu-btn")[0].style.display = "flex";
 		document.getElementsByClassName("projects-table")[0].style.display = "none";
 		document.getElementsByClassName("project-view-mobile")[0].style.display = "inherit";
+		var x= document.getElementById("myHeader")
+		x.style.backgroundColor="unset";
+		x.style.paddingBottom="0";
+		x.style.textAlign="unset";
+		document.getElementsByClassName("menu-bar")[0].style.display="block";
+		document.getElementsByClassName("logo")[0].style.marginLeft="-20px"
 	}
 	/*Pc view*/
 	else{
