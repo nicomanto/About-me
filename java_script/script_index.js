@@ -6,6 +6,11 @@ window.onload = function () {
 		document.getElementsByClassName("menu-pc")[0].style.display = "none";
 		document.getElementsByClassName("menu-btn")[0].style.display = "flex";
 		document.getElementsByClassName("avatar")[0].style.marginTop = "1em";
+		var x= document.getElementById("myHeader")
+		x.style.backgroundColor="unset";
+		x.style.paddingBottom="0";
+		x.style.textAlign="unset";
+		document.getElementsByClassName("menu-bar")[0].style.display="block";
 	}
 		
 	const menuBtn = document.querySelector('.menu-btn');

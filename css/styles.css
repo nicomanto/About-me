@@ -11,10 +11,10 @@ body {
 	font-family: 'Montserrat';
 }
 
-body header{
+#myHeader{	
 	background-color: darkgray;
 	padding-bottom: 1em;
-   text-align: center;
+   	text-align: center;
 }
 
 /*Logo css*/
