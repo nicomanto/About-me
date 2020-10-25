@@ -14,6 +14,7 @@ body {
 body header{
 	background-color: darkgray;
 	padding-bottom: 1em;
+   text-align: center;
 }
 
 /*Logo css*/
@@ -22,15 +23,6 @@ body header{
 	width: 80px;
 	height: 80px;
 	margin-top:10px;
-	margin-left: -19px;
-	margin-right: -1.4em;
-}
-
-#title_page{
-	display:inline;
-	margin-top:1.5em;
-	float:left;
-	color: black;
 }
 
 /*Menu bar css*/
@@ -38,6 +30,7 @@ body header{
    overflow: hidden;
    margin-right: 2em;
    margin-left: 2em;
+   display: inline-flex;
 }
 
 /*My image css*/
@@ -56,8 +49,8 @@ body header{
 
 .list-page ul{
     margin-top: 1.8em;
-    padding: 0;
-	float: right;
+	padding: 0;
+	text-align: left;
 }
 
 .list-page ul li{
