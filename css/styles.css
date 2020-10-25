@@ -1,9 +1,19 @@
+*{
+    padding:0em;
+    margin:0em;
+}
+
 body { 
 	background-image: url("../resources/images/background.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
 	font-family: 'Montserrat';
+}
+
+body header{
+	background-color: darkgray;
+	padding-bottom: 1em;
 }
 
 /*Logo css*/
@@ -13,6 +23,14 @@ body {
 	height: 80px;
 	margin-top:10px;
 	margin-left: -19px;
+	margin-right: -1.4em;
+}
+
+#title_page{
+	display:inline;
+	margin-top:1.5em;
+	float:left;
+	color: black;
 }
 
 /*Menu bar css*/
@@ -33,6 +51,7 @@ body {
     overflow:hidden;
     text-align: center;
 	font-size:1em;
+	margin-top: 1em;
 }
 
 .list-page ul{
