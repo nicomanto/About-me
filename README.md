@@ -3,7 +3,7 @@
 [![Website](https://img.shields.io/website?down_color=red&down_message=down&up_color=green&up_message=up&url=https%3A%2F%2Fnicomanto.github.io%2FAbout-me%2F)](https://shields.io/)
 
 ## Description
-This is my **personal site** where you can find *information about me*, my *personal projects*, my *CV* and *my contacts*.
+This is the repository of my **personal site** where you can find *information about me*, my *personal projects*, my *CV* and *my contacts*.
 
 ## Link
 You can find my site on this link: [About-me](https://nicomanto.github.io/About-me/)
